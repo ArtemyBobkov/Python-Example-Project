@@ -7,5 +7,16 @@ This project is a simple library system simulation implemented in Python. It dem
 
 It is generated entirely by ChatGPT (including the previous paragraph), with some minor modifications by me. It is FORBIDDEN to submit code like this in your study projects, they must be done by yourself and show your own work (and be more complex and functional, of course).
 
-Did you expect to find here? Poor you! My reviewer hasn't approved my pull request yet, so there is nothing to see in `master` branch. Visit `develop` to see the actual code ;)
+## How to run the project
 
+1. Install the dependencies. `pip freeze` may be useful to generate requirements.txt, but only in case of clean environment! Don't create messy requirements with unused packages. All the dependencies may be installed via command:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the project:
+
+```bash
+python3 main.py
+```
