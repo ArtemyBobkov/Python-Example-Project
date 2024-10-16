@@ -2,10 +2,11 @@ from library import Book, DigitalBook, AudioBook, Member
 from library.database import LibraryDatabase
 from utils.helper import display_welcome_message
 
+
 def run_library_system():
     """Run the library system simulation."""
     display_welcome_message()
-    
+
     # Create a library database
     library_db = LibraryDatabase()
 

@@ -1,11 +1,15 @@
+# You may use decorators to log the execution of functions or do something else!
 def log_decorator(func):
     """Decorator to log the execution of a function."""
+
     def wrapper(*args, **kwargs):
         print(f"Calling function: {func.__name__}")
         result = func(*args, **kwargs)
         print(f"Function {func.__name__} finished")
         return result
+
     return wrapper
+
 
 @log_decorator
 def display_welcome_message():
